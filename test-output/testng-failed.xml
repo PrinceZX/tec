@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.galenframework.java.sample.tests.WelcomePageTest">
+        <methods>
+          <include name="slider1_shouldLookGood_onDevice" invocation-numbers="0"/>
+          <include name="initDriver"/>
+          <include name="initReport"/>
+          <include name="slider7_shouldLookGood_onDevice" invocation-numbers="0"/>
+          <include name="slider3_shouldLookGood_onDevice" invocation-numbers="0"/>
+          <include name="welcomePage_shouldLookGood_onDevice" invocation-numbers="0"/>
+          <include name="slider5_shouldLookGood_onDevice" invocation-numbers="0"/>
+          <include name="Footer_shouldLookGood_onDevice" invocation-numbers="0"/>
+          <include name="slider6_shouldLookGood_onDevice" invocation-numbers="0"/>
+          <include name="provideTestEndDate"/>
+          <include name="quitDriver"/>
+          <include name="slider2_shouldLookGood_onDevice" invocation-numbers="0"/>
+          <include name="slider4_shouldLookGood_onDevice" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.galenframework.java.sample.tests.WelcomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

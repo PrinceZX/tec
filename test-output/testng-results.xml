@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="9" ignored="0" total="9" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="445603" started-at="2018-12-16T14:19:48Z" finished-at="2018-12-16T14:27:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="445603" started-at="2018-12-16T14:19:48Z" finished-at="2018-12-16T14:27:13Z">
+      <class name="com.galenframework.java.sample.tests.WelcomePageTest">
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initDriver" is-config="true" duration-ms="4929" started-at="2018-12-16T14:19:48Z" finished-at="2018-12-16T14:19:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5ec88f9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initReport" is-config="true" duration-ms="4" started-at="2018-12-16T14:19:53Z" finished-at="2018-12-16T14:19:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.galenframework.java.sample.tests.WelcomePageTest.Footer_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5ec88f9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="FAIL" signature="Footer_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="Footer_shouldLookGood_onDevice" duration-ms="56062" started-at="2018-12-16T14:19:53Z" data-provider="devices" finished-at="2018-12-16T14:20:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop 1280x720]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.galenframework.support.LayoutValidationException">
+            <message>
+              <![CDATA[/specs/footer.spec, tags: [desktop]
+  - "footer-stay" height is 138px instead of 141px (/specs/footer.spec:15)
+  - "footer-stay" width is 292px instead of 283px (/specs/footer.spec:16)
+  - Cannot find locator for "footer" in page spec (/specs/footer.spec:17)
+  - Cannot find locator for "footer" in page spec (/specs/footer.spec:18)
+  - Cannot find locator for "footer" in page spec (/specs/footer.spec:19)
+  - "footer-stay" text is "Stay
+in Touch." but should be "Stay in touch." (/specs/footer.spec:21)
+  - "footer-stay" css property "color" is "rgba(0, 0, 0, 1)" but should be "#000000" (/specs/footer.spec:22)
+  - "footer-stay" css property "font-family" is "SFProDisplay, Arial, Tahoma, sans-serif" but should be "SFProDisplay" (/specs/footer.spec:23)
+  - "footer-p" text is "Sign Up for Our Newsletter" but should be "Sign up for our Newsletter" (/specs/footer.spec:30)
+  - "footer-p" css property "color" is "rgba(65, 64, 66, 1)" but should be "#414042" (/specs/footer.spec:31)
+  - "footer-p" css property "font-family" is "SFCompactText, Arial, Tahoma, sans-serif" but should be "SFCompactText" (/specs/footer.spec:32)
+  - Cannot find locator for "footer" in page spec (/specs/footer.spec:33)
+  - Cannot find locator for "footer" in page spec (/specs/footer.spec:34)
+  - Cannot find locator for "footer" in page spec (/specs/footer.spec:35)
+  - "footer-email" is absent on page (/specs/footer.spec:39)
+  - "footer-email" is absent on page (/specs/footer.spec:40)
+  - "footer-email" is absent on page (/specs/footer.spec:41)
+  - "footer-email" is absent on page (/specs/footer.spec:42)
+  - "footer-email" is absent on page (/specs/footer.spec:43)
+  - "footer-email" is absent on page (/specs/footer.spec:44)
+  - "footer-drp" width is 283px instead of 303px (/specs/footer.spec:47)
+  - "footer-drp" css property "color" is "rgba(0, 0, 0, 0.15)" but should be "#000000" (/specs/footer.spec:49)
+  - "footer-drp" css property "font-family" is "SFProDisplay, Arial, Tahoma, sans-serif" but should be "SFProDisplay" (/specs/footer.spec:50)
+  - "footer-drp" css property "background-color" is "rgba(0, 0, 0, 0)" but should be "white" (/specs/footer.spec:51)
+  - "footer-button" is absent on page (/specs/footer.spec:54)
+  - "footer-button" is absent on page (/specs/footer.spec:55)
+  - "footer-h3-1" height is 26px instead of 22px (/specs/footer.spec:104)
+  - "footer-h3-1" width is 48px instead of 91px (/specs/footer.spec:105)
+  - "footer-h3-2" height is 26px instead of 22px (/specs/footer.spec:108)
+  - "footer-h3-2" width is 66px instead of 73px (/specs/footer.spec:109)
+  - "footer-h3-3" height is 26px instead of 22px (/specs/footer.spec:112)
+  - "footer-h3-4" height is 26px instead of 22px (/specs/footer.spec:116)
+  - "footer-h3-4" width is 73px instead of 74px (/specs/footer.spec:117)
+  - "footer-h3-5" height is 26px instead of 22px (/specs/footer.spec:120)
+  - "footer-list-1" height is 21px instead of 14px (/specs/footer.spec:126)
+  - "footer-list-1" width is 184px instead of 118px (/specs/footer.spec:127)
+  - "footer-list-1" is -45px bottom instead of 10px (/specs/footer.spec:128)
+  - "footer-list-2" is not aligned horizontally all with "footer-list-1". Offset is 24px (/specs/footer.spec:129)
+  - "footer-list-2" height is 21px instead of 14px (/specs/footer.spec:132)
+  - "footer-list-2" width is 184px instead of 64px (/specs/footer.spec:133)
+  - "footer-list-2" is -21px bottom instead of 10px (/specs/footer.spec:134)
+  - "footer-list-3" is not aligned horizontally all with "footer-list-2". Offset is 24px (/specs/footer.spec:135)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.galenframework.support.LayoutValidationException: /specs/footer.spec, tags: [desktop]
+  - "footer-stay" height is 138px instead of 141px (/specs/footer.spec:15)
+  - "footer-stay" width is 292px instead of 283px (/specs/footer.spec:16)
+  - Cannot find locator for "footer" in page spec (/specs/footer.spec:17)
+  - Cannot find locator for "footer" in page spec (/specs/footer.spec:18)
+  - Cannot find locator for "footer" in page spec (/specs/footer.spec:19)
+  - "footer-stay" text is "Stay
+in Touch." but should be "Stay in touch." (/specs/footer.spec:21)
+  - "footer-stay" css property "color" is "rgba(0, 0, 0, 1)" but should be "#000000" (/specs/footer.spec:22)
+  - "footer-stay" css property "font-family" is "SFProDisplay, Arial, Tahoma, sans-serif" but should be "SFProDisplay" (/specs/footer.spec:23)
+  - "footer-p" text is "Sign Up for Our Newsletter" but should be "Sign up for our Newsletter" (/specs/footer.spec:30)
+  - "footer-p" css property "color" is "rgba(65, 64, 66, 1)" but should be "#414042" (/specs/footer.spec:31)
+  - "footer-p" css property "font-family" is "SFCompactText, Arial, Tahoma, sans-serif" but should be "SFCompactText" (/specs/footer.spec:32)
+  - Cannot find locator for "footer" in page spec (/specs/footer.spec:33)
+  - Cannot find locator for "footer" in page spec (/specs/footer.spec:34)
+  - Cannot find locator for "footer" in page spec (/specs/footer.spec:35)
+  - "footer-email" is absent on page (/specs/footer.spec:39)
+  - "footer-email" is absent on page (/specs/footer.spec:40)
+  - "footer-email" is absent on page (/specs/footer.spec:41)
+  - "footer-email" is absent on page (/specs/footer.spec:42)
+  - "footer-email" is absent on page (/specs/footer.spec:43)
+  - "footer-email" is absent on page (/specs/footer.spec:44)
+  - "footer-drp" width is 283px instead of 303px (/specs/footer.spec:47)
+  - "footer-drp" css property "color" is "rgba(0, 0, 0, 0.15)" but should be "#000000" (/specs/footer.spec:49)
+  - "footer-drp" css property "font-family" is "SFProDisplay, Arial, Tahoma, sans-serif" but should be "SFProDisplay" (/specs/footer.spec:50)
+  - "footer-drp" css property "background-color" is "rgba(0, 0, 0, 0)" but should be "white" (/specs/footer.spec:51)
+  - "footer-button" is absent on page (/specs/footer.spec:54)
+  - "footer-button" is absent on page (/specs/footer.spec:55)
+  - "footer-h3-1" height is 26px instead of 22px (/specs/footer.spec:104)
+  - "footer-h3-1" width is 48px instead of 91px (/specs/footer.spec:105)
+  - "footer-h3-2" height is 26px instead of 22px (/specs/footer.spec:108)
+  - "footer-h3-2" width is 66px instead of 73px (/specs/footer.spec:109)
+  - "footer-h3-3" height is 26px instead of 22px (/specs/footer.spec:112)
+  - "footer-h3-4" height is 26px instead of 22px (/specs/footer.spec:116)
+  - "footer-h3-4" width is 73px instead of 74px (/specs/footer.spec:117)
+  - "footer-h3-5" height is 26px instead of 22px (/specs/footer.spec:120)
+  - "footer-list-1" height is 21px instead of 14px (/specs/footer.spec:126)
+  - "footer-list-1" width is 184px instead of 118px (/specs/footer.spec:127)
+  - "footer-list-1" is -45px bottom instead of 10px (/specs/footer.spec:128)
+  - "footer-list-2" is not aligned horizontally all with "footer-list-1". Offset is 24px (/specs/footer.spec:129)
+  - "footer-list-2" height is 21px instead of 14px (/specs/footer.spec:132)
+  - "footer-list-2" width is 184px instead of 64px (/specs/footer.spec:133)
+  - "footer-list-2" is -21px bottom instead of 10px (/specs/footer.spec:134)
+  - "footer-list-3" is not aligned horizontally all with "footer-list-2". Offset is 24px (/specs/footer.spec:135)
+
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+at com.galenframework.java.sample.tests.WelcomePageTest.Footer_shouldLookGood_onDevice(WelcomePageTest.java:186)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.galenframework.support.LayoutValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer_shouldLookGood_onDevice -->
+        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="provideTestEndDate" is-config="true" duration-ms="1" started-at="2018-12-16T14:20:49Z" finished-at="2018-12-16T14:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideTestEndDate -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="quitDriver" is-config="true" duration-ms="834" started-at="2018-12-16T14:20:49Z" finished-at="2018-12-16T14:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initDriver" is-config="true" duration-ms="3780" started-at="2018-12-16T14:20:50Z" finished-at="2018-12-16T14:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2fd1ad8a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="FAIL" signature="slider1_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="slider1_shouldLookGood_onDevice" duration-ms="37876" started-at="2018-12-16T14:20:53Z" data-provider="devices" finished-at="2018-12-16T14:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop 1280x720]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.galenframework.support.LayoutValidationException">
+            <message>
+              <![CDATA[/specs/slider1.spec, tags: [desktop]
+  - "inspired" height is 138px instead of 141px (/specs/slider1.spec:11)
+  - "inspired" width is 426px instead of 427px (/specs/slider1.spec:12)
+  - "inspired" css property "font-family" is "SFProDisplay, Arial, Tahoma, sans-serif" but should be "SFProDisplay" (/specs/slider1.spec:13)
+  - "inspired" text is "Inspired
+Workspaces." but should be "Inspired Workspaces." (/specs/slider1.spec:14)
+  - "setuplink" height is 28px instead of 22px (/specs/slider1.spec:27)
+  - "setuplink" width is 181px instead of 183px (/specs/slider1.spec:28)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.galenframework.support.LayoutValidationException: /specs/slider1.spec, tags: [desktop]
+  - "inspired" height is 138px instead of 141px (/specs/slider1.spec:11)
+  - "inspired" width is 426px instead of 427px (/specs/slider1.spec:12)
+  - "inspired" css property "font-family" is "SFProDisplay, Arial, Tahoma, sans-serif" but should be "SFProDisplay" (/specs/slider1.spec:13)
+  - "inspired" text is "Inspired
+Workspaces." but should be "Inspired Workspaces." (/specs/slider1.spec:14)
+  - "setuplink" height is 28px instead of 22px (/specs/slider1.spec:27)
+  - "setuplink" width is 181px instead of 183px (/specs/slider1.spec:28)
+
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+at com.galenframework.java.sample.tests.WelcomePageTest.slider1_shouldLookGood_onDevice(WelcomePageTest.java:53)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.galenframework.support.LayoutValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider1_shouldLookGood_onDevice -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initReport" is-config="true" duration-ms="0" started-at="2018-12-16T14:20:53Z" finished-at="2018-12-16T14:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.galenframework.java.sample.tests.WelcomePageTest.slider1_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2fd1ad8a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="provideTestEndDate" is-config="true" duration-ms="0" started-at="2018-12-16T14:21:31Z" finished-at="2018-12-16T14:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideTestEndDate -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="quitDriver" is-config="true" duration-ms="870" started-at="2018-12-16T14:21:31Z" finished-at="2018-12-16T14:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initDriver" is-config="true" duration-ms="3875" started-at="2018-12-16T14:21:32Z" finished-at="2018-12-16T14:21:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@357f6391]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initReport" is-config="true" duration-ms="1" started-at="2018-12-16T14:21:36Z" finished-at="2018-12-16T14:21:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.galenframework.java.sample.tests.WelcomePageTest.slider2_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@357f6391]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="FAIL" signature="slider2_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="slider2_shouldLookGood_onDevice" duration-ms="34092" started-at="2018-12-16T14:21:36Z" data-provider="devices" finished-at="2018-12-16T14:22:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop 1280x720]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.galenframework.support.LayoutValidationException">
+            <message>
+              <![CDATA[/specs/slider2.spec, tags: [desktop]
+  - "s2head-1" height is 69px instead of 86px (/specs/slider2.spec:9)
+  - "s2head-1" width is 183px instead of 80px (/specs/slider2.spec:10)
+  - "s2head-1" is 6px above "s2head-2" which is not in range of 0 to 5px (/specs/slider2.spec:12)
+  - "s2head-2" width is 183px instead of 153px (/specs/slider2.spec:16)
+  - "s2head-2" is 78px above "s2head-3" which is not in range of 10 to 77px (/specs/slider2.spec:18)
+  - "s2head-3" height is 69px instead of 70px (/specs/slider2.spec:21)
+  - "s2head-3" width is 183px instead of 138px (/specs/slider2.spec:22)
+  - "s2head-3" is 6px above "s2head-4" which is not in range of 0 to 5px (/specs/slider2.spec:24)
+  - "s2head-4" is 78px above "s2head-5" which is not in range of 10 to 77px (/specs/slider2.spec:30)
+  - "s2head-5" height is 69px instead of 70px (/specs/slider2.spec:33)
+  - "s2head-5" width is 183px instead of 80px (/specs/slider2.spec:34)
+  - "s2head-6" height is 32px instead of 33px (/specs/slider2.spec:39)
+  - "s2head-6" width is 183px instead of 157px (/specs/slider2.spec:40)
+  - "s2mainh2" height is 138px instead of 141px (/specs/slider2.spec:44)
+  - "s2mainh2" width is 250px instead of 427px (/specs/slider2.spec:45)
+  - "s2mainh2" is 32px above "s2mainp" which is not in range of 10 to 30px (/specs/slider2.spec:47)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.galenframework.support.LayoutValidationException: /specs/slider2.spec, tags: [desktop]
+  - "s2head-1" height is 69px instead of 86px (/specs/slider2.spec:9)
+  - "s2head-1" width is 183px instead of 80px (/specs/slider2.spec:10)
+  - "s2head-1" is 6px above "s2head-2" which is not in range of 0 to 5px (/specs/slider2.spec:12)
+  - "s2head-2" width is 183px instead of 153px (/specs/slider2.spec:16)
+  - "s2head-2" is 78px above "s2head-3" which is not in range of 10 to 77px (/specs/slider2.spec:18)
+  - "s2head-3" height is 69px instead of 70px (/specs/slider2.spec:21)
+  - "s2head-3" width is 183px instead of 138px (/specs/slider2.spec:22)
+  - "s2head-3" is 6px above "s2head-4" which is not in range of 0 to 5px (/specs/slider2.spec:24)
+  - "s2head-4" is 78px above "s2head-5" which is not in range of 10 to 77px (/specs/slider2.spec:30)
+  - "s2head-5" height is 69px instead of 70px (/specs/slider2.spec:33)
+  - "s2head-5" width is 183px instead of 80px (/specs/slider2.spec:34)
+  - "s2head-6" height is 32px instead of 33px (/specs/slider2.spec:39)
+  - "s2head-6" width is 183px instead of 157px (/specs/slider2.spec:40)
+  - "s2mainh2" height is 138px instead of 141px (/specs/slider2.spec:44)
+  - "s2mainh2" width is 250px instead of 427px (/specs/slider2.spec:45)
+  - "s2mainh2" is 32px above "s2mainp" which is not in range of 10 to 30px (/specs/slider2.spec:47)
+
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+at com.galenframework.java.sample.tests.WelcomePageTest.slider2_shouldLookGood_onDevice(WelcomePageTest.java:74)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.galenframework.support.LayoutValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider2_shouldLookGood_onDevice -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="quitDriver" is-config="true" duration-ms="759" started-at="2018-12-16T14:22:10Z" finished-at="2018-12-16T14:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="provideTestEndDate" is-config="true" duration-ms="0" started-at="2018-12-16T14:22:10Z" finished-at="2018-12-16T14:22:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideTestEndDate -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initDriver" is-config="true" duration-ms="3784" started-at="2018-12-16T14:22:11Z" finished-at="2018-12-16T14:22:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@689faf79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initReport" is-config="true" duration-ms="1" started-at="2018-12-16T14:22:15Z" finished-at="2018-12-16T14:22:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.galenframework.java.sample.tests.WelcomePageTest.slider3_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@689faf79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="FAIL" signature="slider3_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="slider3_shouldLookGood_onDevice" duration-ms="35243" started-at="2018-12-16T14:22:15Z" data-provider="devices" finished-at="2018-12-16T14:22:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop 1280x720]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.galenframework.support.LayoutValidationException">
+            <message>
+              <![CDATA[/specs/slider3.spec, tags: [desktop]
+  - "s3titleh2" height is 138px instead of 141px (/specs/slider3.spec:15)
+  - "s3titleh2" width is 266px instead of 250px (/specs/slider3.spec:16)
+  - "s3titleh2" is 24px above "s3titlep" which is not in range of 0 to 20px (/specs/slider3.spec:18)
+  - Cannot find locator for "s2titleh2-3" in page spec (/specs/slider3.spec:23)
+  - Cannot find locator for "filterspan" in page spec (/specs/slider3.spec:24)
+  - "filterspan-1" height is 24px instead of 22px (/specs/slider3.spec:29)
+  - "filterspan-2" height is 24px instead of 22px (/specs/slider3.spec:33)
+  - "filterspan-2" width is 75px instead of 76px (/specs/slider3.spec:34)
+  - "filterspan-3" height is 24px instead of 22px (/specs/slider3.spec:37)
+  - "ann" height is 25px instead of 16px (/specs/slider3.spec:43)
+  - "ann" width is 112px instead of 96px (/specs/slider3.spec:44)
+  - "celebrate" width is 400px instead of 200px (/specs/slider3.spec:48)
+  - "celediv" height is 34px instead of 36px (/specs/slider3.spec:51)
+  - "date-1" width is 52px instead of 54px (/specs/slider3.spec:58)
+  - "date-2" width is 52px instead of 54px (/specs/slider3.spec:62)
+  - "dic" height is 20px instead of 21px (/specs/slider3.spec:67)
+  - "dic" width is 300px instead of 108px (/specs/slider3.spec:68)
+  - "allann" is not visible on page (/specs/slider3.spec:73)
+  - "allann" is not visible on page (/specs/slider3.spec:74)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.galenframework.support.LayoutValidationException: /specs/slider3.spec, tags: [desktop]
+  - "s3titleh2" height is 138px instead of 141px (/specs/slider3.spec:15)
+  - "s3titleh2" width is 266px instead of 250px (/specs/slider3.spec:16)
+  - "s3titleh2" is 24px above "s3titlep" which is not in range of 0 to 20px (/specs/slider3.spec:18)
+  - Cannot find locator for "s2titleh2-3" in page spec (/specs/slider3.spec:23)
+  - Cannot find locator for "filterspan" in page spec (/specs/slider3.spec:24)
+  - "filterspan-1" height is 24px instead of 22px (/specs/slider3.spec:29)
+  - "filterspan-2" height is 24px instead of 22px (/specs/slider3.spec:33)
+  - "filterspan-2" width is 75px instead of 76px (/specs/slider3.spec:34)
+  - "filterspan-3" height is 24px instead of 22px (/specs/slider3.spec:37)
+  - "ann" height is 25px instead of 16px (/specs/slider3.spec:43)
+  - "ann" width is 112px instead of 96px (/specs/slider3.spec:44)
+  - "celebrate" width is 400px instead of 200px (/specs/slider3.spec:48)
+  - "celediv" height is 34px instead of 36px (/specs/slider3.spec:51)
+  - "date-1" width is 52px instead of 54px (/specs/slider3.spec:58)
+  - "date-2" width is 52px instead of 54px (/specs/slider3.spec:62)
+  - "dic" height is 20px instead of 21px (/specs/slider3.spec:67)
+  - "dic" width is 300px instead of 108px (/specs/slider3.spec:68)
+  - "allann" is not visible on page (/specs/slider3.spec:73)
+  - "allann" is not visible on page (/specs/slider3.spec:74)
+
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+at com.galenframework.java.sample.tests.WelcomePageTest.slider3_shouldLookGood_onDevice(WelcomePageTest.java:95)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.galenframework.support.LayoutValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider3_shouldLookGood_onDevice -->
+        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="provideTestEndDate" is-config="true" duration-ms="0" started-at="2018-12-16T14:22:50Z" finished-at="2018-12-16T14:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideTestEndDate -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="quitDriver" is-config="true" duration-ms="931" started-at="2018-12-16T14:22:50Z" finished-at="2018-12-16T14:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initDriver" is-config="true" duration-ms="3985" started-at="2018-12-16T14:22:51Z" finished-at="2018-12-16T14:22:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@582e9152]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="FAIL" signature="slider4_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="slider4_shouldLookGood_onDevice" duration-ms="38685" started-at="2018-12-16T14:22:55Z" data-provider="devices" finished-at="2018-12-16T14:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop 1280x720]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.galenframework.support.LayoutValidationException">
+            <message>
+              <![CDATA[/specs/slider4.spec, tags: [desktop]
+  - "s4titleh2-1" height is 72px instead of 70px (/specs/slider4.spec:13)
+  - "s4titleh2-2" height is 72px instead of 70px (/specs/slider4.spec:20)
+  - "s4titleh2-2" is 32px top instead of 30px (/specs/slider4.spec:23)
+  - "office-2" width is 438px instead of 85px (/specs/slider4.spec:33)
+  - "Retail-2" is not visible on page (/specs/slider4.spec:37)
+  - "Retail-2" is not visible on page (/specs/slider4.spec:38)
+  - "Retail-2" is not visible on page (/specs/slider4.spec:39)
+  - "ware-2" width is 438px instead of 85px (/specs/slider4.spec:43)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.galenframework.support.LayoutValidationException: /specs/slider4.spec, tags: [desktop]
+  - "s4titleh2-1" height is 72px instead of 70px (/specs/slider4.spec:13)
+  - "s4titleh2-2" height is 72px instead of 70px (/specs/slider4.spec:20)
+  - "s4titleh2-2" is 32px top instead of 30px (/specs/slider4.spec:23)
+  - "office-2" width is 438px instead of 85px (/specs/slider4.spec:33)
+  - "Retail-2" is not visible on page (/specs/slider4.spec:37)
+  - "Retail-2" is not visible on page (/specs/slider4.spec:38)
+  - "Retail-2" is not visible on page (/specs/slider4.spec:39)
+  - "ware-2" width is 438px instead of 85px (/specs/slider4.spec:43)
+
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+at com.galenframework.java.sample.tests.WelcomePageTest.slider4_shouldLookGood_onDevice(WelcomePageTest.java:114)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.galenframework.support.LayoutValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider4_shouldLookGood_onDevice -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initReport" is-config="true" duration-ms="0" started-at="2018-12-16T14:22:55Z" finished-at="2018-12-16T14:22:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.galenframework.java.sample.tests.WelcomePageTest.slider4_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@582e9152]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="provideTestEndDate" is-config="true" duration-ms="0" started-at="2018-12-16T14:23:33Z" finished-at="2018-12-16T14:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideTestEndDate -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="quitDriver" is-config="true" duration-ms="925" started-at="2018-12-16T14:23:33Z" finished-at="2018-12-16T14:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initDriver" is-config="true" duration-ms="3904" started-at="2018-12-16T14:23:34Z" finished-at="2018-12-16T14:23:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7a31ca20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initReport" is-config="true" duration-ms="0" started-at="2018-12-16T14:23:38Z" finished-at="2018-12-16T14:23:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.galenframework.java.sample.tests.WelcomePageTest.slider5_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7a31ca20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="FAIL" signature="slider5_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="slider5_shouldLookGood_onDevice" duration-ms="35420" started-at="2018-12-16T14:23:38Z" data-provider="devices" finished-at="2018-12-16T14:24:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop 1280x720]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.galenframework.support.LayoutValidationException">
+            <message>
+              <![CDATA[/specs/slider5.spec, tags: [desktop]
+  - "s5titleh2" height is 138px instead of 141px (/specs/slider5.spec:11)
+  - "s5titleh2" is 33px top instead of 30px and -218px left instead of 80px (/specs/slider5.spec:14)
+  - "s5titlep-1" height is 156px instead of 158px (/specs/slider5.spec:17)
+  - "s5titlep-1" is 19px top instead of 20px (/specs/slider5.spec:20)
+  - "author" height is 25px instead of 16px (/specs/slider5.spec:23)
+  - "author" width is 60px instead of 62px (/specs/slider5.spec:24)
+  - "author" is 10px top which is not in range of 15 to 19px (/specs/slider5.spec:26)
+  - "s5titlep-2" height is 16px instead of 22px (/specs/slider5.spec:29)
+  - "s5titlep-2" width is 185px instead of 184px (/specs/slider5.spec:30)
+  - "img" is 265px right instead of 266px (/specs/slider5.spec:36)
+  - "aview" is not visible on page (/specs/slider5.spec:39)
+  - "aview" is not visible on page (/specs/slider5.spec:40)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.galenframework.support.LayoutValidationException: /specs/slider5.spec, tags: [desktop]
+  - "s5titleh2" height is 138px instead of 141px (/specs/slider5.spec:11)
+  - "s5titleh2" is 33px top instead of 30px and -218px left instead of 80px (/specs/slider5.spec:14)
+  - "s5titlep-1" height is 156px instead of 158px (/specs/slider5.spec:17)
+  - "s5titlep-1" is 19px top instead of 20px (/specs/slider5.spec:20)
+  - "author" height is 25px instead of 16px (/specs/slider5.spec:23)
+  - "author" width is 60px instead of 62px (/specs/slider5.spec:24)
+  - "author" is 10px top which is not in range of 15 to 19px (/specs/slider5.spec:26)
+  - "s5titlep-2" height is 16px instead of 22px (/specs/slider5.spec:29)
+  - "s5titlep-2" width is 185px instead of 184px (/specs/slider5.spec:30)
+  - "img" is 265px right instead of 266px (/specs/slider5.spec:36)
+  - "aview" is not visible on page (/specs/slider5.spec:39)
+  - "aview" is not visible on page (/specs/slider5.spec:40)
+
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+at com.galenframework.java.sample.tests.WelcomePageTest.slider5_shouldLookGood_onDevice(WelcomePageTest.java:132)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.galenframework.support.LayoutValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider5_shouldLookGood_onDevice -->
+        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="provideTestEndDate" is-config="true" duration-ms="0" started-at="2018-12-16T14:24:14Z" finished-at="2018-12-16T14:24:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideTestEndDate -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="quitDriver" is-config="true" duration-ms="841" started-at="2018-12-16T14:24:14Z" finished-at="2018-12-16T14:24:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initDriver" is-config="true" duration-ms="3937" started-at="2018-12-16T14:24:15Z" finished-at="2018-12-16T14:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@349c4d1c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initReport" is-config="true" duration-ms="1" started-at="2018-12-16T14:24:18Z" finished-at="2018-12-16T14:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.galenframework.java.sample.tests.WelcomePageTest.slider6_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@349c4d1c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="FAIL" signature="slider6_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="slider6_shouldLookGood_onDevice" duration-ms="34040" started-at="2018-12-16T14:24:18Z" data-provider="devices" finished-at="2018-12-16T14:24:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop 1280x720]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.galenframework.support.LayoutValidationException">
+            <message>
+              <![CDATA[/specs/slider6.spec, tags: [desktop]
+  - "s6titleh2-1" height is 70px instead of 72px (/specs/slider6.spec:10)
+  - "s6titleh2-1" width is 250px instead of 534px (/specs/slider6.spec:11)
+  - "s6titleh2-2" height is 70px instead of 72px (/specs/slider6.spec:15)
+  - "s6titleh2-2" width is 250px instead of 534px (/specs/slider6.spec:16)
+  - "s6titleh2-2" is 242px left instead of 250px (/specs/slider6.spec:18)
+  - "img" height is 336px instead of 340px (/specs/slider6.spec:41)
+  - "img" width is 757px instead of 765px (/specs/slider6.spec:42)
+  - "img" is not completely inside. The offset is 54px. (/specs/slider6.spec:43)
+  - "get" height is 28px instead of 22px (/specs/slider6.spec:47)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.galenframework.support.LayoutValidationException: /specs/slider6.spec, tags: [desktop]
+  - "s6titleh2-1" height is 70px instead of 72px (/specs/slider6.spec:10)
+  - "s6titleh2-1" width is 250px instead of 534px (/specs/slider6.spec:11)
+  - "s6titleh2-2" height is 70px instead of 72px (/specs/slider6.spec:15)
+  - "s6titleh2-2" width is 250px instead of 534px (/specs/slider6.spec:16)
+  - "s6titleh2-2" is 242px left instead of 250px (/specs/slider6.spec:18)
+  - "img" height is 336px instead of 340px (/specs/slider6.spec:41)
+  - "img" width is 757px instead of 765px (/specs/slider6.spec:42)
+  - "img" is not completely inside. The offset is 54px. (/specs/slider6.spec:43)
+  - "get" height is 28px instead of 22px (/specs/slider6.spec:47)
+
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+at com.galenframework.java.sample.tests.WelcomePageTest.slider6_shouldLookGood_onDevice(WelcomePageTest.java:149)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.galenframework.support.LayoutValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider6_shouldLookGood_onDevice -->
+        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="provideTestEndDate" is-config="true" duration-ms="0" started-at="2018-12-16T14:24:53Z" finished-at="2018-12-16T14:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideTestEndDate -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="quitDriver" is-config="true" duration-ms="820" started-at="2018-12-16T14:24:53Z" finished-at="2018-12-16T14:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initDriver" is-config="true" duration-ms="3911" started-at="2018-12-16T14:24:53Z" finished-at="2018-12-16T14:24:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@21edd891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initReport" is-config="true" duration-ms="0" started-at="2018-12-16T14:24:57Z" finished-at="2018-12-16T14:24:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.galenframework.java.sample.tests.WelcomePageTest.slider7_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@21edd891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="FAIL" signature="slider7_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="slider7_shouldLookGood_onDevice" duration-ms="37258" started-at="2018-12-16T14:24:57Z" data-provider="devices" finished-at="2018-12-16T14:25:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop 1280x720]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.galenframework.support.LayoutValidationException">
+            <message>
+              <![CDATA[/specs/slider7.spec, tags: [desktop]
+  - "s6titleh2" height is 138px instead of 141px (/specs/slider7.spec:10)
+  - "s6titleh2" is 242px left instead of 250px (/specs/slider7.spec:13)
+  - "s6box" height is 212px instead of 210px (/specs/slider7.spec:16)
+  - "s6box" is 227px left and 227px right instead of 235px (/specs/slider7.spec:18)
+  - "s6box" is 27px top instead of 30px (/specs/slider7.spec:19)
+  - "imgbox-1" width is 249px instead of 250px (/specs/slider7.spec:23)
+  - "imgbox-1" is 16px left and 16px top and 16px bottom instead of 15px (/specs/slider7.spec:24)
+  - "imgbox-4" is 16px top and 16px bottom instead of 15px (/specs/slider7.spec:29)
+  - "imgbox-7" width is 249px instead of 250px (/specs/slider7.spec:34)
+  - "imgbox-7" is 17px right and 16px top and 16px bottom instead of 15px (/specs/slider7.spec:35)
+  - "imgbox-7" is 14px right instead of 15px (/specs/slider7.spec:36)
+  - "explore" height is 28px instead of 22px (/specs/slider7.spec:39)
+  - "explore" width is 217px instead of 218px (/specs/slider7.spec:40)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.galenframework.support.LayoutValidationException: /specs/slider7.spec, tags: [desktop]
+  - "s6titleh2" height is 138px instead of 141px (/specs/slider7.spec:10)
+  - "s6titleh2" is 242px left instead of 250px (/specs/slider7.spec:13)
+  - "s6box" height is 212px instead of 210px (/specs/slider7.spec:16)
+  - "s6box" is 227px left and 227px right instead of 235px (/specs/slider7.spec:18)
+  - "s6box" is 27px top instead of 30px (/specs/slider7.spec:19)
+  - "imgbox-1" width is 249px instead of 250px (/specs/slider7.spec:23)
+  - "imgbox-1" is 16px left and 16px top and 16px bottom instead of 15px (/specs/slider7.spec:24)
+  - "imgbox-4" is 16px top and 16px bottom instead of 15px (/specs/slider7.spec:29)
+  - "imgbox-7" width is 249px instead of 250px (/specs/slider7.spec:34)
+  - "imgbox-7" is 17px right and 16px top and 16px bottom instead of 15px (/specs/slider7.spec:35)
+  - "imgbox-7" is 14px right instead of 15px (/specs/slider7.spec:36)
+  - "explore" height is 28px instead of 22px (/specs/slider7.spec:39)
+  - "explore" width is 217px instead of 218px (/specs/slider7.spec:40)
+
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+at com.galenframework.java.sample.tests.WelcomePageTest.slider7_shouldLookGood_onDevice(WelcomePageTest.java:167)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.galenframework.support.LayoutValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider7_shouldLookGood_onDevice -->
+        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="provideTestEndDate" is-config="true" duration-ms="0" started-at="2018-12-16T14:25:35Z" finished-at="2018-12-16T14:25:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideTestEndDate -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="quitDriver" is-config="true" duration-ms="835" started-at="2018-12-16T14:25:35Z" finished-at="2018-12-16T14:25:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initDriver" is-config="true" duration-ms="3840" started-at="2018-12-16T14:25:35Z" finished-at="2018-12-16T14:25:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@de579ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="initReport" is-config="true" duration-ms="2" started-at="2018-12-16T14:25:39Z" finished-at="2018-12-16T14:25:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.galenframework.java.sample.tests.WelcomePageTest.welcomePage_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@de579ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="FAIL" signature="welcomePage_shouldLookGood_onDevice(com.galenframework.java.sample.components.TecomBase$TestDevice)[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="welcomePage_shouldLookGood_onDevice" duration-ms="93240" started-at="2018-12-16T14:25:39Z" data-provider="devices" finished-at="2018-12-16T14:27:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop 1280x720]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.galenframework.support.LayoutValidationException">
+            <message>
+              <![CDATA[/specs/welcomePage.spec, tags: [desktop]
+  - "header-list-p-1" width is 228px instead of 251px (\specs/common.spec:21)
+  - "header-list-p-1" is 460px left instead of 428px (\specs/common.spec:23)
+  - "header-img-1" is 40px left instead of 50px (\specs/common.spec:28)
+  - "header-img-3" is 20px left instead of 40px (\specs/common.spec:33)
+  - "header-list-p-4" width is 101px instead of 62px (\specs/common.spec:37)
+  - "header-list-p-4" is 21px left instead of 40px (\specs/common.spec:38)
+  - "header-list-p-5" width is 199px instead of 198px (\specs/common.spec:43)
+  - "logo-1" is 45px below "header-list-p-1" which is not in range of 10 to 43px (\specs/common.spec:49)
+  - "menu-item-1" height is 23px which is not in range of 14 to 18px (\specs/common.spec:59)
+  - "menu-item-1" width is 58px instead of 65px (\specs/common.spec:60)
+  - "menu-item-2" height is 23px which is not in range of 14 to 18px (\specs/common.spec:66)
+  - "menu-item-3" height is 23px which is not in range of 14 to 18px (\specs/common.spec:73)
+  - "menu-item-3" width is 105px instead of 106px (\specs/common.spec:74)
+  - "menu-item-4" height is 23px which is not in range of 14 to 18px (\specs/common.spec:80)
+  - "menu-item-5" height is 23px which is not in range of 14 to 18px (\specs/common.spec:87)
+  - "menu-item-5" width is 40px instead of 41px (\specs/common.spec:88)
+  - "menu-item-6" height is 23px which is not in range of 14 to 18px (\specs/common.spec:94)
+  - "slider-1" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:9)
+  - "slider-2" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:15)
+  - "slider-3" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:21)
+  - "slider-4" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:27)
+  - "slider-5" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:33)
+  - "slider-6" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:39)
+  - "slider-7" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:45)
+  - "slider-8" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:51)
+  - "slider-9" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:57)
+  - "build" is absent on page (/specs/welcomePage.spec:14)
+  - "build" is absent on page (/specs/welcomePage.spec:15)
+  - "build" is absent on page (/specs/welcomePage.spec:16)
+  - "tomo" is absent on page (/specs/welcomePage.spec:19)
+  - "tomo" is absent on page (/specs/welcomePage.spec:20)
+  - Cannot find locator for "arrow-next" in page spec (/specs/welcomePage.spec:24)
+  - Cannot find locator for "arrow-next" in page spec (/specs/welcomePage.spec:25)
+  - Cannot find locator for "arrow-next" in page spec (/specs/welcomePage.spec:26)
+  - Cannot find locator for "arrow-prev" in page spec (/specs/welcomePage.spec:29)
+  - Cannot find locator for "arrow-prev" in page spec (/specs/welcomePage.spec:30)
+  - Cannot find locator for "arrow-prev" in page spec (/specs/welcomePage.spec:31)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.galenframework.support.LayoutValidationException: /specs/welcomePage.spec, tags: [desktop]
+  - "header-list-p-1" width is 228px instead of 251px (\specs/common.spec:21)
+  - "header-list-p-1" is 460px left instead of 428px (\specs/common.spec:23)
+  - "header-img-1" is 40px left instead of 50px (\specs/common.spec:28)
+  - "header-img-3" is 20px left instead of 40px (\specs/common.spec:33)
+  - "header-list-p-4" width is 101px instead of 62px (\specs/common.spec:37)
+  - "header-list-p-4" is 21px left instead of 40px (\specs/common.spec:38)
+  - "header-list-p-5" width is 199px instead of 198px (\specs/common.spec:43)
+  - "logo-1" is 45px below "header-list-p-1" which is not in range of 10 to 43px (\specs/common.spec:49)
+  - "menu-item-1" height is 23px which is not in range of 14 to 18px (\specs/common.spec:59)
+  - "menu-item-1" width is 58px instead of 65px (\specs/common.spec:60)
+  - "menu-item-2" height is 23px which is not in range of 14 to 18px (\specs/common.spec:66)
+  - "menu-item-3" height is 23px which is not in range of 14 to 18px (\specs/common.spec:73)
+  - "menu-item-3" width is 105px instead of 106px (\specs/common.spec:74)
+  - "menu-item-4" height is 23px which is not in range of 14 to 18px (\specs/common.spec:80)
+  - "menu-item-5" height is 23px which is not in range of 14 to 18px (\specs/common.spec:87)
+  - "menu-item-5" width is 40px instead of 41px (\specs/common.spec:88)
+  - "menu-item-6" height is 23px which is not in range of 14 to 18px (\specs/common.spec:94)
+  - "slider-1" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:9)
+  - "slider-2" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:15)
+  - "slider-3" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:21)
+  - "slider-4" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:27)
+  - "slider-5" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:33)
+  - "slider-6" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:39)
+  - "slider-7" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:45)
+  - "slider-8" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:51)
+  - "slider-9" height is 10px which is not in range of 0 to 4px (\specs/slider.spec:57)
+  - "build" is absent on page (/specs/welcomePage.spec:14)
+  - "build" is absent on page (/specs/welcomePage.spec:15)
+  - "build" is absent on page (/specs/welcomePage.spec:16)
+  - "tomo" is absent on page (/specs/welcomePage.spec:19)
+  - "tomo" is absent on page (/specs/welcomePage.spec:20)
+  - Cannot find locator for "arrow-next" in page spec (/specs/welcomePage.spec:24)
+  - Cannot find locator for "arrow-next" in page spec (/specs/welcomePage.spec:25)
+  - Cannot find locator for "arrow-next" in page spec (/specs/welcomePage.spec:26)
+  - Cannot find locator for "arrow-prev" in page spec (/specs/welcomePage.spec:29)
+  - Cannot find locator for "arrow-prev" in page spec (/specs/welcomePage.spec:30)
+  - Cannot find locator for "arrow-prev" in page spec (/specs/welcomePage.spec:31)
+
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+at com.galenframework.java.sample.tests.WelcomePageTest.welcomePage_shouldLookGood_onDevice(WelcomePageTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.galenframework.support.LayoutValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomePage_shouldLookGood_onDevice -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="quitDriver" is-config="true" duration-ms="834" started-at="2018-12-16T14:27:12Z" finished-at="2018-12-16T14:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.galenframework.java.sample.tests.WelcomePageTest@587c290d]" name="provideTestEndDate" is-config="true" duration-ms="0" started-at="2018-12-16T14:27:12Z" finished-at="2018-12-16T14:27:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideTestEndDate -->
+      </class> <!-- com.galenframework.java.sample.tests.WelcomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
